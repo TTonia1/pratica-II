@@ -11,7 +11,7 @@
     $urgencia = $_POST['urgencia'];
     $status = $_POST['status'];
     $data_abertura = $_POST['data_abertura'];
-    $id_funcionario = $_POST['id_funcionario'];
+    $id_funcionario = $_POST['funcionario'];
 
     if($id_cliente == null){
         echo('Cliente inválido!');
