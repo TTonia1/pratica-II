@@ -4,7 +4,7 @@ use pratica2;
 create table cliente(
 id_cliente int not null primary key auto_increment,
 nome varchar(45),
-CPF char(11),
+CPF varchar(13),
 email varchar(50),
 telefone char(11)
 );
